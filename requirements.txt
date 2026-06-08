@@ -1,0 +1,9 @@
+# Root requirements file for the Vercel Python serverless function (api/index.py).
+# Mirrors backend/requirements.txt (runtime deps only; no test tooling).
+fastapi==0.115.6
+pydantic==2.10.4
+pydantic-settings==2.7.1
+supabase==2.31.0
+numpy==2.2.1
+python-dotenv==1.0.1
+httpx==0.28.1
